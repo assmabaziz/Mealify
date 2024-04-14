@@ -1,0 +1,185 @@
+/*============Variables=========*/
+:root {
+  --main-color: #c17e1f;
+  --color-hover: #df9c3e;
+  --color-bg-navbar: #171717;
+  --color-bg-home: #252525;
+  --color-bg-chefs: #202020;
+  --color-bg-contact-info: #0d0d0d;
+  --clor-main-title: #fff;
+  --color-text-home: #9f9f9f;
+  --color-icons-chefs: rgba(55, 55, 55, 0.4);
+  --color-hover-icons: rgba(55 55 63, 0.9);
+  --color-text-gallery: #ddd;
+  --color-heading-contact-info: #adadad;
+}
+/*=========================== Start Components =============================*/
+/*========Section's Heading======*/
+.heading h2 {
+  color: var(--color-text-home);
+}
+.heading p {
+  color: var(--clor-main-title);
+}
+.heading p span {
+  color: var(--main-color);
+}
+/*========= Btn Shape =======*/
+.btn-shape:hover {
+  background-color: var(--color-hover);
+}
+/*=========================== End Components =============================*/
+/*======================================== Start Navbar =============================================*/
+nav {
+  background-color: var(--color-bg-navbar);
+  .nav__logo {
+    h1 {
+      a {
+        color: var(--clor-main-title);
+      }
+    }
+  }
+  .nav__menu {
+    ul {
+      li {
+        a {
+          color: var(--color-text-home);
+        }
+        &:hover a {
+          color: white;
+        }
+      }
+    }
+  }
+  .nav__icone {
+    color: var(--clor-main-title);
+  }
+}
+@media (min-width: 1200px) {
+  nav {
+    .container {
+      .nav__menu {
+        ul {
+          li {
+            a {
+              &.active {
+                color: var(--clor-main-title);
+              }
+            }
+            &:hover a {
+              color: var(--clor-main-title);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*======================================== End Navbar =============================================*/
+/*======================================== Start home =============================================*/
+.home {
+  background-color: var(--color-bg-home);
+  .container {
+    .home__info {
+      .home__info__title {
+        h2 {
+          color: var(--clor-main-title);
+        }
+      }
+      .home__info__text {
+        color: var(--color-text-home);
+      }
+      .home__info__links {
+        .home__info__links__watch {
+          color: var(--clor-main-title);
+          .home__info__links__watch__icone {
+            span {
+              background-color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*======================================== End Home =============================================*/
+/*======================================== Start Chefs ==========================================*/
+.chefs {
+  background-color: var(--color-bg-chefs);
+  .container {
+    .chefs__box {
+      background-color: #000;
+      .chefs__box__caption {
+        h3 {
+          color: var(--clor-main-title);
+        }
+        span,
+        p {
+          color: var(--color-text-home);
+        }
+      }
+    }
+  }
+}
+/*======================================== End Chefs ==========================================*/
+/*======================================== Start Gallery ==========================================*/
+.gallery {
+  background-color: var(--color-bg-home);
+}
+/*======================================== Start Gallery ==========================================*/
+/*======================================== Start contact ======================================*/
+.contact {
+  background-color: var(--color-bg-chefs);
+  .container {
+    .contact__info {
+      .contact__info__box {
+        background-color: var(--color-bg-contact-info);
+        .info__box__icone {
+          i {
+            color: #000;
+          }
+        }
+        .info__box__text {
+          h3 {
+            color: var(--color-heading-contact-info);
+          }
+          p,
+          a {
+            color: var(--clor-main-title);
+          }
+        }
+      }
+    }
+    .contact__form {
+      form {
+        background-color: var(--color-bg-navbar);
+        button {
+          color: #000;
+          &:hover {
+            background-color: var(--color-hover);
+          }
+        }
+      }
+    }
+  }
+}
+/*======================================== End contact ========================================*/
+/*======================================== Start foter ======================================*/
+footer {
+  .container {
+    .footer__subscribe {
+      .footer__subscribe__form {
+        button {
+         a {
+          color: #000;
+         }
+         &:hover {
+          background-color: var(--color-hover);
+         } 
+        } 
+      } 
+    } 
+  }
+}
+/*======================================== End contact ======================================*/

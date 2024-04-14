@@ -1,0 +1,136 @@
+/*=============================================== Start Variabes ===========================================*/
+:root {
+  --main-color: #ce1212;
+  --color-title-site: #37373F;
+  --color-small-tiltle-section:#7F7F90 ;
+  --color-big-tiltle-section:#212529 ;
+  --color-heading: #918a86;
+  --color-hover: #e93030;
+  --bg-section: #eee;
+  --bg-contact-info-box : #F5F5F5;
+  --main-transition: 0.4s;
+}
+/*=============================================== End Variabes ============================================*/
+/*=========================== Start Components =============================*/
+/*========Section's Heading======*/
+.heading {
+  padding: 40px 0 0;
+}
+.heading h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-small-tiltle-section);
+}
+.heading p {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--color-big-tiltle-section);
+}
+.heading p span {
+  color: var(--color-hover);
+}
+/*========Btn Shape======*/
+.btn-shape {
+  background-color: var(--main-color);
+  padding: 13px 30px;
+  border-radius: 25px;
+  border: none;
+  transition: var(--main-transition); 
+}
+.btn-shape:hover {
+  background-color: var(--color-hover);
+}
+/*=========================== End Components =============================*/
+/*=============================================== Start Display ===========================================*/
+.d-flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.over-hidden {
+  overflow: hidden;
+}
+/*=============================================== End Display =============================================*/
+/*=============================================== Start Text ==============================================*/
+.ca-text {
+  text-transform: capitalize;
+}
+.up-text {
+  text-transform: uppercase;
+}
+.none-transform {
+  text-transform: none;
+}
+.text-c {
+  text-align: center;
+}
+/*=============================================== End Text ================================================*/
+/*=============================================== Start Position ==========================================*/
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/*=============================================== End Position ==============================================*/
+
+/*=============================================== Start Colors ==============================================*/
+.bg-white {
+  background-color: #fff;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-f5f5 {
+  background-color: var(--bg-contact-info-box);
+}
+.c-white {
+  color: #fff;
+}
+.c-title {
+  color: var(--color-title-site);
+}
+/*=============================================== End Colors ===============================================*/
+/*=============================================== Start Font ==============================================*/
+.ff-amatic {
+  font-family: "Amatic SC", sans-serif;
+}
+.fw-bold {
+  font-weight: bold;
+}
+/*=============================================== End Font ==============================================*/ 
+/*=============================================== Start Border Radius ==================================*/
+.rad-6 {
+  border-radius: 6px;
+} 
+.rad-50 {
+  border-radius: 50%;
+}
+/*=============================================== End Border Radius ==================================*/
+/*=============================================== Start Spaces ======================================*/
+.g-30 {
+  gap: 30px;
+}
+.g-20 {
+  gap: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+} 
+/*=============================================== End Spaces ==================================*/
